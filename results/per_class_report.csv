@@ -1,0 +1,25 @@
+model,label,precision,recall,f1-score,support
+Base mBERT (zero-shot),pests,0.3333,0.1333,0.1905,15.0
+Base mBERT (zero-shot),crop_disease,0.5714,0.2667,0.3636,15.0
+Base mBERT (zero-shot),soil_fertilizer,0.5,0.2667,0.3478,15.0
+Base mBERT (zero-shot),weather_climate,0.1915,0.6,0.2903,15.0
+Base mBERT (zero-shot),market_prices,0.5625,0.6,0.5806,15.0
+Base mBERT (zero-shot),livestock,0.3333,0.1333,0.1905,15.0
+TF-IDF + LR (reference),pests,0.9333,0.9333,0.9333,15.0
+TF-IDF + LR (reference),crop_disease,0.8,0.8,0.8,15.0
+TF-IDF + LR (reference),soil_fertilizer,0.7647,0.8667,0.8125,15.0
+TF-IDF + LR (reference),weather_climate,0.875,0.9333,0.9032,15.0
+TF-IDF + LR (reference),market_prices,0.9286,0.8667,0.8966,15.0
+TF-IDF + LR (reference),livestock,0.9231,0.8,0.8571,15.0
+Base mBERT (frozen + LR head),pests,0.6875,0.7333,0.7097,15.0
+Base mBERT (frozen + LR head),crop_disease,0.5,0.6,0.5455,15.0
+Base mBERT (frozen + LR head),soil_fertilizer,0.5882,0.6667,0.625,15.0
+Base mBERT (frozen + LR head),weather_climate,0.6667,0.8,0.7273,15.0
+Base mBERT (frozen + LR head),market_prices,0.9091,0.6667,0.7692,15.0
+Base mBERT (frozen + LR head),livestock,0.6,0.4,0.48,15.0
+Fine-tuned mBERT,pests,0.75,0.8,0.7742,15.0
+Fine-tuned mBERT,crop_disease,0.6875,0.7333,0.7097,15.0
+Fine-tuned mBERT,soil_fertilizer,0.5789,0.7333,0.6471,15.0
+Fine-tuned mBERT,weather_climate,0.8125,0.8667,0.8387,15.0
+Fine-tuned mBERT,market_prices,0.9,0.6,0.72,15.0
+Fine-tuned mBERT,livestock,0.6923,0.6,0.6429,15.0

@@ -1,0 +1,16 @@
+input,language,true,base_mbert,finetuned_mbert
+"Mbu wa viazi wameingia shamba, majani yanakauka kwa ncha.",sw,pests,crop_disease,pests
+"Whiteflies ziko kwa tomatoes zangu, dawa gani inafanya kazi haraka?",mix,pests,crop_disease,pests
+Miwa yangu ina majani yenye mistari meupe.,sw,crop_disease,soil_fertilizer,crop_disease
+Leaf spot kwa groundnuts inatibiwa aje?,mix,crop_disease,soil_fertilizer,crop_disease
+Napima udongo wapi hapa Kakamega?,sw,soil_fertilizer,market_prices,soil_fertilizer
+Jinsi ya kutengeneza mboji kwa kutumia takataka za jikoni.,sw,soil_fertilizer,pests,soil_fertilizer
+"How do I read the numbers on an NPK fertilizer bag, like 17:17:17?",en,soil_fertilizer,livestock,soil_fertilizer
+Which drought-tolerant maize variety is best for semi-arid areas?,en,weather_climate,soil_fertilizer,weather_climate
+Nitavunaje maji ya mvua kwa ajili ya kunyunyizia shamba?,sw,weather_climate,pests,weather_climate
+Greenhouse inasaidia kulinda nyanya kutoka kwa baridi na mvua?,mix,weather_climate,crop_disease,weather_climate
+A buyer took my produce and refused to pay. What can I do?,en,market_prices,livestock,market_prices
+How do I know when my cow is on heat for artificial insemination?,en,livestock,soil_fertilizer,livestock
+Ni mara ngapi nipe mbuzi dawa ya minyoo?,sw,livestock,weather_climate,livestock
+"Kuku wanadonoana manyoya, nifanye nini?",sw,livestock,soil_fertilizer,livestock
+"Bro, ngamia yangu ina swelling kwa shingo.",sheng,livestock,crop_disease,livestock

@@ -1,0 +1,5 @@
+language,Base mBERT (zero-shot),TF-IDF + LR (reference),Base mBERT (frozen + LR head),Fine-tuned mBERT,n
+en,0.515,0.848,0.727,0.818,33.0
+mix,0.353,0.941,0.471,0.588,17.0
+sheng,0.2,0.9,0.8,0.8,10.0
+sw,0.167,0.833,0.6,0.667,30.0

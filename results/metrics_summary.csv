@@ -1,0 +1,5 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,n_correct,n_test
+Base mBERT (zero-shot),0.3333,0.4153,0.3333,0.3272,30,90
+TF-IDF + LR (reference),0.8667,0.8708,0.8667,0.8671,78,90
+Base mBERT (frozen + LR head),0.6444,0.6586,0.6444,0.6428,58,90
+Fine-tuned mBERT,0.7222,0.7369,0.7222,0.7221,65,90

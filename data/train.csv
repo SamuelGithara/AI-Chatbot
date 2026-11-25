@@ -1,0 +1,421 @@
+id,input,output,language,has_local_term,source,n_words,split
+FQ0001,My maize leaves have holes and there is sawdust-like stuff inside the funnel. What is eating it?,pests,en,False,ai_assisted_draft_reviewed_by_student,17,train
+FQ0002,How do I control fall armyworm in maize without spending too much?,pests,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0003,"Aphids have covered my kale, the leaves are curling. What spray should I use?",pests,en,False,ai_assisted_draft_reviewed_by_student,14,train
+FQ0005,Weevils have attacked the maize I stored in the store. How do I protect the rest?,pests,en,False,ai_assisted_draft_reviewed_by_student,16,train
+FQ0007,Tuta absoluta is destroying my tomatoes in Kirinyaga. Which pesticide works?,pests,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0009,Moles are digging tunnels and eating my potato tubers. What can I do?,pests,en,True,ai_assisted_draft_reviewed_by_student,13,train
+FQ0010,Termites are attacking my young eucalyptus trees. How do I stop them?,pests,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0011,"Thrips are damaging my onions, leaves have silver patches.",pests,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0012,What is the best organic way to control red spider mites on French beans?,pests,en,False,ai_assisted_draft_reviewed_by_student,14,train
+FQ0013,"Mahindi yangu ina viwavi jeshi, nifanye nini?",pests,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0014,"Viwavi wanakula majani ya mahindi shambani kwangu Nakuru, dawa gani inafaa?",pests,sw,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0015,"Sukuma wiki yangu imejaa vidukari, nitumie dawa gani?",pests,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0016,"Panya wanakula mahindi yangu ghalani, naomba ushauri.",pests,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0018,"Nzi weupe wamejaa kwenye nyanya zangu, nitawaondoaje?",pests,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0020,"Kuna wadudu wadogo weusi kwenye kabichi, wanakula majani yote.",pests,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0023,"Ndege wanakula mtama kabla ya kuvuna, nitawafukuzaje?",pests,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0025,"Nikitumia mwarubaini kama dawa ya wadudu, inafanya kazi kweli?",pests,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0026,Inzi wa matunda wanaharibu maembe yangu kabla hayajaiva.,pests,sw,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0029,"Kuna ma-insect wadogo kwa sukuma zangu, zinaharibu kila kitu.",pests,sheng,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0031,"Bro, ma-aphid zimejaa kwa kale yangu, kuna spray poa?",pests,sheng,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0032,"Fall armyworm imeingia kwa shamba, nitumie pesticide gani?",pests,mix,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0033,"Nimeona aphids kwa sukuma wiki, which spray is safe?",pests,mix,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0034,"Weevils wameingia kwa beans niliweka store, how do I treat them?",pests,mix,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0036,"Cutworms wanakata cabbage seedlings usiku, nifanye nini?",pests,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0039,"Termites wanakula mitungi ya miti yangu, solution ni gani?",pests,mix,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0040,"Thrips ziko kwa onions zangu, leaves zinageuka silver.",pests,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0041,"Moles wanachimba shamba la viazi, nifanye aje?",pests,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0042,"Stalk borer has entered my maize stems, the stems are breaking.",pests,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0043,Bollworms are inside my cotton balls in Siaya. How do I spray?,pests,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0045,"Larger grain borer is in my stored maize, the grain is turning to powder.",pests,en,False,ai_assisted_draft_reviewed_by_student,14,train
+FQ0047,Kuna wadudu wanatoboa matunda ya pilipili hoho.,pests,sw,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0050,"Ma-snail wanakula seedlings zangu usiku, nifanye aje?",pests,sheng,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0052,Green grams pods are being eaten by small caterpillars.,pests,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0053,How do I trap fruit flies in my orange orchard?,pests,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0055,Monkeys raid my maize farm every morning. How can I keep them away?,pests,en,True,ai_assisted_draft_reviewed_by_student,13,train
+FQ0056,Porcupines dig up my sweet potatoes at night.,pests,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0057,Black ants are climbing my mango trees and there are white insects on the leaves.,pests,en,False,ai_assisted_draft_reviewed_by_student,15,train
+FQ0058,Is it safe to use Duduthrin on sukuma wiki I will harvest next week?,pests,en,True,ai_assisted_draft_reviewed_by_student,14,train
+FQ0060,Bean flies are killing my bean seedlings soon after germination.,pests,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0062,Diamondback moth larvae are destroying my cabbages despite spraying.,pests,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0063,How do I store beans so that bruchids do not attack them?,pests,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0065,Tumbili wanavamia shamba la mahindi kila asubuhi.,pests,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0066,Nungunungu wanachimba viazi vitamu usiku.,pests,sw,True,ai_assisted_draft_reviewed_by_student,5,train
+FQ0067,Kuna viwavi wanaokula miwa kutoka ndani ya shina.,pests,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0068,Panzi wamevamia shamba langu la mawele.,pests,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0070,Siafu wameingia kwenye shamba la mboga.,pests,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0071,Kuna chawa weupe kwenye mihogo yangu.,pests,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0072,Kindi wanakula makadamia kabla hazijakomaa.,pests,sw,False,ai_assisted_draft_reviewed_by_student,5,train
+FQ0073,Dawa ya kuua wadudu kwenye ghala bila kuharibu chakula ni ipi?,pests,sw,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0074,Viwavi wa kabichi hawafi hata nikinyunyizia dawa.,pests,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0075,Inzi wa maharagwe wanaua miche michanga.,pests,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0077,Mbinu ya push-pull inazuiaje funza wa mahindi?,pests,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0078,"Msee, hawa ma-monkey wanamaliza mahindi yangu.",pests,sheng,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0079,"Ma-grasshopper wamejaa kwa shamba, nitumie nini?",pests,sheng,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0080,Hii ma-caterpillar kwa cabbage hazifi hata na spray.,pests,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0081,"Bro, ma-weevil wameingia kwa gunia za maize.",pests,sheng,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0082,Ma-ant zimejaa kwa mango tree yangu.,pests,sheng,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0083,"Bruchids wameingia kwa beans, nitumie actellic?",pests,mix,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0084,Push pull technology inasaidia aje against stemborer?,pests,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0085,"Monkeys wanaharibu farm, kuna repellent?",pests,mix,False,ai_assisted_draft_reviewed_by_student,5,train
+FQ0087,Fruit fly traps zinatengenezwa aje kwa oranges?,pests,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0089,"Mealybugs wamejaa kwa pawpaw tree, nifanye nini?",pests,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0090,Hermetic bags zinazuia weevils kweli?,pests,mix,False,ai_assisted_draft_reviewed_by_student,5,train
+FQ0092,Rats are chewing my irrigation pipes in the shamba.,pests,en,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0093,Kupe wa mimea wekundu wamejaa kwenye maharagwe ya kifaransa.,pests,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0094,Mchwa wamekula mizizi ya miwa yangu.,pests,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0095,Larvae ndani ya tomato fruits zinaharibu zote.,pests,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0097,Minyoo ya mizizi inafanya mizizi ya nyanya kuwa na vifundo.,pests,sw,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0099,Hii insects kwa pilipili zinaharibu flowers.,pests,sheng,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0100,Locusts have been reported in Marsabit. Will they reach Isiolo farms?,pests,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0101,My tomato leaves have brown spots with rings and the plants are drying. Is it blight?,crop_disease,en,True,ai_assisted_draft_reviewed_by_student,16,train
+FQ0104,Bean leaves have rusty orange powder underneath. How do I treat it?,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0105,Coffee berries are turning black and falling off. Is this coffee berry disease?,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0106,My banana plants are wilting and the stem inside is brown. What is wrong?,crop_disease,en,True,ai_assisted_draft_reviewed_by_student,14,train
+FQ0107,Cassava leaves are twisted with yellow and green patches. Is it mosaic virus?,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0108,White powder is forming on my pumpkin leaves. What fungicide should I use?,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0109,My avocado tree has dark sunken spots on the fruits.,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0110,Tea bushes in my farm are dying from the roots. Could it be root rot?,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,15,train
+FQ0111,Tomato plants wilt suddenly in the afternoon even when the soil is wet.,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0112,What causes maize lethal necrosis and how can I prevent it next season?,crop_disease,en,True,ai_assisted_draft_reviewed_by_student,13,train
+FQ0113,Nyanya zangu zina madoa meusi kwenye majani na zinakauka.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0114,"Majani ya mahindi yamegeuka manjano na yana mistari, ni ugonjwa gani?",crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0116,Maharagwe yana kutu ya rangi ya machungwa kwenye majani.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0117,"Matunda ya kahawa yanageuka meusi na kuanguka, ni ugonjwa gani?",crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0118,Migomba yangu inanyauka na shina ndani lina rangi ya kahawia.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0119,Mihogo ina majani yaliyojikunja na madoa ya manjano.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0120,"Kuna unga mweupe kwenye majani ya maboga, dawa gani inafaa?",crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0123,Nyanya zinanyauka ghafla mchana hata udongo ukiwa na unyevu.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0125,"Mipapai yangu ina majani yaliyojikunja na madoa, ni virusi?",crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0126,Machungwa yanaanguka yakiwa madogo na yana madoa ya kahawia.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0127,Sukuma wiki ina madoa meusi kwenye majani na inaoza.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0128,"Msee, nyanya zangu zimeshika blight, zinakauka zote.",crop_disease,sheng,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0129,"Hii disease imeshika mahindi yangu, majani ni yellow kabisa.",crop_disease,sheng,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0131,"Migomba zangu zinadie moja moja, ni ugonjwa ama?",crop_disease,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0132,"Nyanya zangu zina blight, which fungicide nitumie?",crop_disease,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0134,"Coffee yangu ina CBD, berries zinaanguka. Nifanye nini?",crop_disease,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0135,"Cassava yangu ina mosaic, majani yamejikunja vibaya.",crop_disease,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0136,"Powdery mildew imeingia kwa pumpkins zangu, dawa gani?",crop_disease,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0137,"Tomato plants zinawilt mchana, is it bacterial wilt?",crop_disease,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0139,"Avocado zangu zina anthracnose, black spots kwa fruits.",crop_disease,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0140,"Damping off inaua seedlings zangu kwa nursery, nifanye aje?",crop_disease,mix,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0141,Late blight has destroyed half of my Irish potatoes in Nyandarua.,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0143,"Black rot has appeared on my cabbage heads, the veins are dark.",crop_disease,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0144,Head smut has appeared on my maize tassels.,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0145,My passion fruit vines have woody fruits that do not grow. Is it a virus?,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,15,train
+FQ0146,"Matunda ya passion yanakuwa magumu na hayakui, ni ugonjwa?",crop_disease,sw,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0147,Vitunguu vina madoa ya zambarau kwenye majani.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0148,Kabichi zina uozo mweusi kwenye mishipa ya majani.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0150,"Hii fungus imeshika miche zangu za tomato, zinaanguka.",crop_disease,sheng,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0151,My sugarcane has white stripes on the leaves and the shoots look like whips.,crop_disease,en,True,ai_assisted_draft_reviewed_by_student,14,train
+FQ0154,Rice leaves in Mwea have brown diamond-shaped spots.,crop_disease,en,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0155,My kale leaves are turning yellow with black veins.,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0156,Maize cobs have grey mould inside after harvest. Is it safe to eat?,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0157,Groundnut leaves have dark circular spots and are falling off.,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0162,Which tomato varieties are resistant to bacterial wilt?,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0163,How do I treat clubroot on my cabbages?,crop_disease,en,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0165,Majani ya viazi vitamu yamejikunja na kuwa ya manjano.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0166,Maembe yanapata madoa meusi baada ya kutoa maua.,crop_disease,sw,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0167,Mpunga una madoa ya kahawia kwenye majani huko Mwea.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0168,"Gunzi la mahindi lina ukungu baada ya kuvuna, ni salama kula?",crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0169,Majani ya karanga yana madoa meusi na yanaanguka.,crop_disease,sw,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0170,Ngano ina mistari ya unga wa manjano kwenye majani.,crop_disease,sw,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0171,Maua ya pareto yanakauka kabla ya kufunguka.,crop_disease,sw,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0173,Aina gani ya nyanya inastahimili mnyauko?,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0174,Mizizi ya kabichi imevimba na mimea inanyauka.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0177,Majani ya maharagwe yana madoa ya angular na yanakauka.,crop_disease,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0178,"Msee, mangoes zangu zinapata black spots zote.",crop_disease,sheng,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0179,"Hii rot imeshika watermelon zangu, zinaoza chini.",crop_disease,sheng,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0181,Kale yangu inageuka yellow na veins ni black.,crop_disease,sheng,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0182,"Rice blast imeingia kwa mpunga, nitumie fungicide gani?",crop_disease,mix,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0184,"Clubroot imeshika cabbage, roots zimevimba.",crop_disease,mix,True,ai_assisted_draft_reviewed_by_student,5,train
+FQ0186,Blossom end rot kwa capsicum husababishwa na nini?,crop_disease,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0189,Fungicide ya Ridomil inafaa kwa potato blight?,crop_disease,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0190,"Smut imeshika sugarcane, shoots ni kama whip.",crop_disease,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0191,My cowpea leaves have a mosaic pattern and the plants are stunted.,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0194,Kunde zina majani ya madoa na zimedumaa.,crop_disease,sw,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0196,"Gray leaf spot imeshika mahindi yangu, majani yana mistari ya kijivu.",crop_disease,mix,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0197,Black sigatoka is turning my banana leaves black.,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0198,Majani ya ndizi yanageuka meusi kwa ugonjwa wa sigatoka.,crop_disease,sw,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0200,Onion bulbs are rotting in storage with a bad smell.,crop_disease,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0202,When should I top dress my maize with CAN?,soil_fertilizer,en,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0203,"How do I know if my soil is acidic, and how much lime should I add?",soil_fertilizer,en,False,ai_assisted_draft_reviewed_by_student,16,train
+FQ0204,Where can I test my soil in Eldoret and how much does it cost?,soil_fertilizer,en,True,ai_assisted_draft_reviewed_by_student,14,train
+FQ0207,My soil is very hard and cracks when dry. How can I improve it?,soil_fertilizer,en,True,ai_assisted_draft_reviewed_by_student,14,train
+FQ0210,How do I prevent soil erosion on my sloping farm?,soil_fertilizer,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0211,Can I use chicken manure directly on vegetables or will it burn them?,soil_fertilizer,en,True,ai_assisted_draft_reviewed_by_student,13,train
+FQ0214,Ni lini niweke mbolea ya CAN kwenye mahindi?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0215,"Udongo wangu una asidi nyingi, niweke chokaa kiasi gani?",soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0218,Samadi ya ng'ombe ni bora kuliko mbolea ya dukani?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0220,Mbolea ya ruzuku ya serikali inapatikana wapi?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0221,Ni kiasi gani cha mbolea ya DAP kwa ekari moja?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0222,Nitazuiaje mmomonyoko wa udongo kwenye shamba la mteremko?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0224,"Rutuba ya udongo wangu imeisha, mazao yanapungua kila msimu.",soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0225,Nikipanda mikunde itasaidia kuongeza rutuba ya udongo?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0226,"Msee, nitumie fertilizer gani kwa shamba ya mahindi?",soil_fertilizer,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0227,"Udongo yangu imekuwa poor, mazao ni kidogo sana.",soil_fertilizer,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0228,"Bro, manure ya kuku ni poa kwa sukuma?",soil_fertilizer,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0229,"Nataka ku-test soil yangu, naenda wapi?",soil_fertilizer,sheng,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0231,Top dressing ya maize inafaa kufanywa lini?,soil_fertilizer,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0232,"Soil yangu ni acidic, how much lime niweke?",soil_fertilizer,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0233,Compost manure inatengenezwa aje step by step?,soil_fertilizer,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0235,Foliar feed inasaidia sukuma kukua haraka?,soil_fertilizer,mix,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0236,"Soil erosion imeharibu shamba yangu, nifanye terraces?",soil_fertilizer,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0237,Urea inawekwa kiasi gani kwa wheat per acre?,soil_fertilizer,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0238,Vermicompost ni nini na inatengenezwa aje?,soil_fertilizer,mix,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0239,Can I mix DAP and manure in the same planting hole?,soil_fertilizer,en,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0241,How do I use green manure to improve my soil?,soil_fertilizer,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0242,My maize leaves are purple at the edges. Is it lack of phosphorus?,soil_fertilizer,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0243,"Majani ya mahindi ni ya zambarau pembeni, ni ukosefu wa mbolea?",soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0244,Ninaweza kuchanganya DAP na samadi kwenye shimo moja?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0245,Nitumie mbolea gani kwa chai msimu wa mvua?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0246,Mulching inasaidia udongo kuhifadhi unyevu?,soil_fertilizer,mix,True,ai_assisted_draft_reviewed_by_student,5,train
+FQ0249,Hii mbolea ya 17:17:17 inamaanisha nini?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0250,"Soil pH yangu ni 4.8, hiyo ni poa ama mbaya?",soil_fertilizer,sheng,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0251,How much manure should I put in each planting hole for maize?,soil_fertilizer,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0254,How do I make liquid manure from animal dung?,soil_fertilizer,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0256,When should I apply fertilizer to coffee trees?,soil_fertilizer,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0257,Is it true that continuous use of DAP makes soil acidic?,soil_fertilizer,en,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0259,What is the price-effective way to use fertilizer on a quarter acre?,soil_fertilizer,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0261,Is rabbit urine a good fertilizer for vegetables?,soil_fertilizer,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0264,Niweke samadi kiasi gani kwa kila shimo la mahindi?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0265,Mbolea gani inafaa kwa miparachichi?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,5,train
+FQ0266,"Udongo wangu ni wa mchanga, nitaongezaje rutuba?",soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0267,Nitatengenezaje mbolea ya maji kutoka kwa kinyesi cha mifugo?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0269,Ni wakati gani wa kuweka mbolea kwa mikahawa?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0270,Kutumia DAP kila msimu kunaharibu udongo?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0271,Mzunguko wa mazao unasaidiaje udongo?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,5,train
+FQ0272,Mboji inachukua muda gani kuiva?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,5,train
+FQ0273,Mkojo wa sungura unafaa kama mbolea ya mboga?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0275,Majani ya chini ya mahindi yanageuka manjano kuanzia ncha.,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0277,"Msee, udongo yangu ni sand tu, nifanye aje?",soil_fertilizer,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0278,"Bro, compost inachukua time gani kuwa ready?",soil_fertilizer,sheng,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0279,Rabbit urine inafanya kazi kama fertilizer?,soil_fertilizer,sheng,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0280,"Hii soil yangu inakaa na maji sana, nifanye nini?",soil_fertilizer,sheng,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0281,Liquid manure inatengenezwa aje kutoka cow dung?,soil_fertilizer,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0283,Biochar inasaidia soil fertility kweli?,soil_fertilizer,mix,False,ai_assisted_draft_reviewed_by_student,5,train
+FQ0284,Crop rotation ya maize na beans inasaidia soil?,soil_fertilizer,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0285,Black cotton soil inahitaji fertilizer gani?,soil_fertilizer,mix,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0287,Manure per hole ni kiasi gani kwa maize?,soil_fertilizer,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0288,Coffee fertilizer application ni lini?,soil_fertilizer,mix,False,ai_assisted_draft_reviewed_by_student,5,train
+FQ0289,"Organic fertilizer ama inorganic, ipi ni bora kwa yield?",soil_fertilizer,mix,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0290,Soil sampling inafanywa aje kabla ya kupeleka lab?,soil_fertilizer,mix,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0291,Where can I buy organic fertilizer in bulk in Nakuru?,soil_fertilizer,en,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0293,"Migomba ina upungufu wa potasiamu, nifanye nini?",soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0295,Cover crops like mucuna zinaongeza nitrogen kwa soil?,soil_fertilizer,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0296,Zai pits help retain water and nutrients in dry soils?,soil_fertilizer,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0297,Mashimo ya zai yanasaidia kuhifadhi rutuba?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0298,Hii fertilizer ya CAN ikiwekwa mingi inaharibu mimea?,soil_fertilizer,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0299,How do I apply gypsum to saline soil?,soil_fertilizer,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0300,Udongo wenye chumvi nyingi unarekebishwaje?,soil_fertilizer,sw,True,ai_assisted_draft_reviewed_by_student,5,train
+FQ0301,When will the long rains start this year in Machakos?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0303,The meteorological department says El Nino is coming. How should I prepare my farm?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,14,train
+FQ0304,Which crops can survive the drought in Kitui?,weather_climate,en,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0305,How do I protect my tea from frost in Kericho?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0306,Hailstones destroyed my beans yesterday. Can they recover?,weather_climate,en,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0309,How can I harvest rainwater for irrigation during dry months?,weather_climate,en,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0311,Floods have covered my rice fields in Budalangi. What should I do?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0313,Mvua za masika zitaanza lini mwaka huu?,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0314,Nipande sasa au nisubiri mvua zaidi?,weather_climate,sw,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0315,"Ukame umeharibu mazao yangu yote, nifanye nini?",weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0316,Mvua ya mawe imeharibu maharagwe yangu jana.,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0317,Mvua za vuli zitakuwa nyingi au kidogo mwaka huu?,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0318,Mafuriko yamejaa kwenye shamba langu la mpunga.,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0319,Ni mazao gani yanastahimili ukame huko Kitui?,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0320,"Baridi kali inaharibu chai yangu, nitazuiaje?",weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0322,"Jua kali limekausha mboga zangu, nifanye nini?",weather_climate,sw,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0325,Upepo mkali umeangusha migomba yangu yote.,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0327,"Hii jua imezidi, sukuma zangu zinakauka.",weather_climate,sheng,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0328,"Bro, rains zitaanza lini huku Machakos?",weather_climate,sheng,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0330,"Long rains zitaanza lini, nataka kupanda.",weather_climate,mix,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0331,"Drought imeharibu crops zangu, nifanye aje?",weather_climate,mix,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0332,Weather forecast inasema nini kuhusu short rains?,weather_climate,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0333,"Hailstorm imeharibu beans zangu, zitarecover?",weather_climate,mix,False,ai_assisted_draft_reviewed_by_student,5,train
+FQ0338,Drought tolerant seeds ni zipi for semi-arid areas?,weather_climate,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0339,Strong winds have knocked down my maize. Will it still produce?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0340,How do I use weather SMS alerts from KMD for planting?,weather_climate,en,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0341,Is the dry spell expected to continue into next month?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0342,Too much rain is making my maize leaves yellow. What do I do?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0343,Mvua nyingi imefanya mahindi kuwa ya manjano.,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0344,Kipindi cha kiangazi kitaendelea hadi mwezi ujao?,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0345,Nitapata wapi ujumbe wa utabiri wa hali ya hewa kwa simu?,weather_climate,sw,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0347,"Shamba langu liko kwenye eneo la ukame, nipande mtama au mahindi?",weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0348,"Joto limepanda sana, kuku na mimea vinateseka.",weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0350,"Mvua imekataa kabisa huku Makueni, tufanye aje?",weather_climate,sheng,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0351,Will the short rains be enough for beans in Embu this season?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0352,How do I protect my seedlings from very hot sun?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0353,What should I plant if the rains are predicted to be below normal?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0354,"Is La Nina expected this year, and what does it mean for farmers?",weather_climate,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0355,Strong winds are breaking my greenhouse cover. How do I secure it?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0356,How do I build a water pan to store rain for the dry season?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,14,train
+FQ0357,Night temperatures are very low in Ol Kalou. Which crops tolerate cold?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0359,My dam has dried up. How will I water my animals and crops?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0360,Is it too late to plant maize if the rains started three weeks ago?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,14,train
+FQ0361,How can I insure my crops against drought?,weather_climate,en,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0363,Heavy rains have washed away my newly planted seeds.,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0365,Nitalindaje miche dhidi ya jua kali?,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0366,Nipande nini kama mvua zinatabiriwa kuwa chache?,weather_climate,sw,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0367,La Nina inamaanisha nini kwa wakulima mwaka huu?,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0369,Nitajengaje bwawa dogo la kuhifadhi maji ya mvua?,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0370,"Baridi ya usiku ni kali huku Ol Kalou, nipande nini?",weather_climate,sw,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0371,"Bwawa langu limekauka, nitanyweshaje mifugo na mimea?",weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0372,Bado naweza kupanda mahindi kama mvua ilianza wiki tatu zilizopita?,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0376,Ukungu wa asubuhi unaharibu maua ya maharagwe?,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0377,"Msee, hii jua itaendelea mpaka lini?",weather_climate,sheng,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0379,"Hii baridi imezidi, crops zangu zinaumia.",weather_climate,sheng,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0380,"Rains zimekataa, tupande ama tungoje?",weather_climate,sheng,False,ai_assisted_draft_reviewed_by_student,5,train
+FQ0382,Water pan inajengwa aje kwa small farm?,weather_climate,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0384,"La Nina ikikuja, nipande crops gani?",weather_climate,mix,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0385,Planting time ya potatoes kulingana na rains ni lini?,weather_climate,mix,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0386,Weather advisory ya KMD kwa farmers inapatikana wapi?,weather_climate,mix,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0388,"Greenhouse cover imeraruka na upepo, nifanye aje?",weather_climate,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0389,"Below normal rainfall inatabiriwa, nipande nini?",weather_climate,mix,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0391,Lightning struck and burned part of my farm. Is the soil affected?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0392,How do I use shade nets to reduce heat stress on vegetables?,weather_climate,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0393,Neti za kivuli zinasaidia mboga wakati wa joto?,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0396,Mahindi yanahitaji mvua kiasi gani kwa msimu?,weather_climate,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0397,Climate smart agriculture ni nini kwa small farmers?,weather_climate,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0398,Kilimo kinachostahimili mabadiliko ya tabianchi ni kipi?,weather_climate,sw,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0399,"Hii drought imekuwa long sana, ma-crop zote zimekauka.",weather_climate,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0400,The dry season is longer than usual in Turkana. How do farmers adapt?,weather_climate,en,True,ai_assisted_draft_reviewed_by_student,13,train
+FQ0404,Brokers are buying my milk very cheaply. Where else can I sell?,market_prices,en,True,ai_assisted_draft_reviewed_by_student,12,train
+FQ0405,Is NCPB buying maize this season and at what price?,market_prices,en,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0406,How do I join a cooperative to get better coffee prices?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0407,What is the price of tea per kilo at the KTDA factory this month?,market_prices,en,True,ai_assisted_draft_reviewed_by_student,14,train
+FQ0408,Where can I get a buyer for 2 tonnes of beans in Bungoma?,market_prices,en,True,ai_assisted_draft_reviewed_by_student,13,train
+FQ0409,Should I sell my potatoes now or store them until prices go up?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0410,How can I sell my vegetables online to people in Nairobi?,market_prices,en,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0412,How do I get a contract to supply French beans to exporters?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0413,Bei ya gunia la mahindi la kilo tisini ni ngapi Eldoret?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0414,Naweza kuuza parachichi zangu wapi kwa bei nzuri?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0415,Bei ya nyanya Wakulima soko leo ni ngapi?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0418,Nitajiungaje na chama cha ushirika cha kahawa?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0421,Niuze viazi sasa au nihifadhi hadi bei ipande?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0422,Bei ya mbuzi mmoja soko la Kajiado ni ngapi?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0423,"Bei ya sukuma wiki imeshuka sana, nifanye nini?",market_prices,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0425,Bei ya ndizi kwa mkungu Kisii ni ngapi sasa?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0426,"Msee, bei ya mahindi iko aje huku Kitale?",market_prices,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0427,Hawa ma-broker wananunua avocado zangu bei ya kutupa.,market_prices,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0428,"Bro, nauza wapi nyanya zangu kwa bei poa?",market_prices,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0429,"Soko ya maziwa imeharibika, ma-buyer hawako.",market_prices,sheng,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0430,Bei ya maize per bag ni ngapi this week?,market_prices,mix,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0431,"Natafuta export market ya avocado, nianzie wapi?",market_prices,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0433,"Brokers wananipunja kwa milk, nitapata buyer mwingine wapi?",market_prices,mix,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0434,Cooperative ya coffee inalipa ngapi per kilo?,market_prices,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0435,KTDA bonus ya tea mwaka huu ni how much?,market_prices,mix,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0437,Contract farming ya French beans inafanya kazi aje?,market_prices,mix,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0439,How much does a broiler chicken sell for at Kangemi market?,market_prices,en,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0440,Is there a government price for a bag of fertilizer and maize this year?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,14,train
+FQ0441,How do I check daily market prices on my phone?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0442,What is the price of sorghum sold to breweries?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0443,Kuku wa nyama mmoja anauzwa bei gani sokoni?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0445,Kampuni za bia zinanunua mtama kwa bei gani?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0446,Bei ya asali kwa kilo ni ngapi kwa sasa?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0447,Value addition ya maziwa kuwa yoghurt inaweza kuniletea faida zaidi?,market_prices,mix,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0448,"Nataka ku-sell honey yangu kwa supermarket, naanza aje?",market_prices,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0449,How much is a crate of eggs in Nakuru right now?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0450,Bei ya tray ya mayai Nakuru ni ngapi saa hii?,market_prices,mix,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0451,Where can I sell my macadamia nuts at a good price?,market_prices,en,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0452,How much is a kilo of green grams in Kitui market?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0454,What documents do I need to export mangoes?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0457,Where can I sell my pyrethrum flowers?,market_prices,en,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0458,Which crop has the best market price this season?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0460,Supermarkets want a regular supply of eggs. How do I get a contract?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0461,What is the current price for sugarcane per tonne at the factory?,market_prices,en,True,ai_assisted_draft_reviewed_by_student,12,train
+FQ0462,How do I use the warehouse receipt system to get a better price?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0463,When do maize prices usually go up in Kenya?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0464,Nauza wapi makadamia kwa bei nzuri?,market_prices,sw,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0465,Bei ya kilo ya ndengu soko la Kitui ni ngapi?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,10,train
+FQ0466,Ni faida zaidi kuuza maziwa kwa kiwanda au kwa hoteli?,market_prices,sw,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0467,Nahitaji vibali gani kuuza maembe nje ya nchi?,market_prices,sw,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0471,Zao gani lina bei nzuri sokoni msimu huu?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0472,Nitauzaje ng'ombe kwenye mnada wa Garissa?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0474,Bei ya mahindi huwa inapanda lini Kenya?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0476,"Supermarket wanataka mayai kila wiki, nipate mkataba aje?",market_prices,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0478,"Bro, ma-buyer wa macadamia wako wapi?",market_prices,sheng,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0479,Hawa ma-middleman wanatuibia kwa weighing ya potatoes.,market_prices,sheng,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0480,Soko ya cattle iko poa saa hii ama ningoje?,market_prices,sheng,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0482,Warehouse receipt system inafanya kazi aje?,market_prices,mix,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0483,Bei ya potatoes per bag Nyandarua ni how much?,market_prices,mix,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0484,"Milk processor ama hotels, wapi nitapata profit zaidi?",market_prices,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0485,Sugarcane price per tonne imepanda?,market_prices,mix,True,ai_assisted_draft_reviewed_by_student,5,train
+FQ0486,Supermarket supply contract ya eggs inapatikana aje?,market_prices,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0487,Which crop ina market poa this season?,market_prices,mix,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0488,Livestock auction ya Garissa ni siku gani?,market_prices,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0489,Pyrethrum buyers wako wapi Nyeri?,market_prices,mix,False,ai_assisted_draft_reviewed_by_student,5,train
+FQ0493,Faida kwa ekari ya nyanya inahesabiwaje?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0494,Kuna programu ya simu inayoonyesha bei za masoko?,market_prices,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0495,"Mnunuzi amekataa kunilipa baada ya kuchukua mazao, nifanye nini?",market_prices,sw,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0498,Cost ya transport ya produce kwenda Nairobi inafanya bei iwe chini.,market_prices,mix,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0500,What is the price of a kilo of coffee cherry at the cooperative?,market_prices,en,False,ai_assisted_draft_reviewed_by_student,13,train
+FQ0502,How often should I deworm my goats?,livestock,en,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0504,What should I feed a dairy cow to increase milk production?,livestock,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0506,My calf has diarrhoea and is not feeding. What should I do?,livestock,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0510,How do I control ticks on my cattle?,livestock,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0511,What is the best breed of goat for milk in Kenya?,livestock,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0513,Ng'ombe wangu amepunguza maziwa na kiwele kimevimba.,livestock,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0516,Nimlishe ng'ombe nini aongeze maziwa?,livestock,sw,True,ai_assisted_draft_reviewed_by_student,5,train
+FQ0517,Nitajuaje ng'ombe yuko kwenye joto ili apandishwe?,livestock,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0518,Ndama wangu anaharisha na hataki kunyonya.,livestock,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0519,Mayai ya kuku huchukua siku ngapi kuanguliwa?,livestock,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0520,Kuku wapewe chanjo gani dhidi ya kideri?,livestock,sw,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0521,Ng'ombe amevimba tumbo baada ya kula nyasi mbichi.,livestock,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0522,Nitazuiaje kupe kwenye ng'ombe wangu?,livestock,sw,True,ai_assisted_draft_reviewed_by_student,5,train
+FQ0524,Jinsi ya kutengeneza sileji kwa ng'ombe wa maziwa.,livestock,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0525,"Sungura wangu wanakufa mmoja mmoja, ni ugonjwa gani?",livestock,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0526,"Msee, kuku zangu zinakufa moja moja, ni kideri?",livestock,sheng,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0529,Hii mbuzi yangu inakohoa sana na haikuli.,livestock,sheng,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0530,"Cow yangu ina mastitis, nitumie dawa gani?",livestock,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0531,Deworming ya goats inafanywa after how many months?,livestock,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0532,"Chicken zangu zina Newcastle disease, nifanye nini?",livestock,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0536,"Ticks zimejaa kwa cattle zangu, dawa ya dip ni gani?",livestock,mix,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0538,Bloat kwa cow inatibiwa aje haraka?,livestock,mix,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0539,My pigs are not eating and have red patches on the skin.,livestock,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0540,How do I start a fish pond for tilapia farming?,livestock,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0542,What causes East Coast Fever in cattle and how is it treated?,livestock,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0543,My bees have left the hive. How do I attract them back?,livestock,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0545,"Nyuki wamehama mzinga wangu, nitawarudishaje?",livestock,sw,True,ai_assisted_draft_reviewed_by_student,5,train
+FQ0546,Nataka kuanza ufugaji wa samaki aina ya tilapia.,livestock,sw,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0549,"Sheep zangu zina foot rot, zinachechemea.",livestock,mix,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0550,"Hii ng'ombe imeshika ndigana, vet anasema ECF.",livestock,sheng,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0551,My camel has swellings on the neck. What could it be?,livestock,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0552,How do I treat lameness in my donkey?,livestock,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0553,What feed should I give broilers in the first two weeks?,livestock,en,True,ai_assisted_draft_reviewed_by_student,11,train
+FQ0554,My goat has aborted twice. What is the cause?,livestock,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0555,How much water does a dairy cow need in a day?,livestock,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0556,My turkeys have swollen heads and are sneezing.,livestock,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0557,How do I castrate a young bull safely?,livestock,en,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0558,What is the best way to raise ducks for meat?,livestock,en,False,ai_assisted_draft_reviewed_by_student,10,train
+FQ0559,My cow retained the placenta after calving. What should I do?,livestock,en,False,ai_assisted_draft_reviewed_by_student,11,train
+FQ0560,How do I treat lumpy skin disease in cattle?,livestock,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0561,At what age should a heifer be served for the first time?,livestock,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0563,My rabbits have scabs on their ears.,livestock,en,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0564,Ngamia wangu ana uvimbe shingoni.,livestock,sw,False,ai_assisted_draft_reviewed_by_student,5,train
+FQ0566,Kuku wa nyama walishwe nini wiki mbili za kwanza?,livestock,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0567,Mbuzi wangu ameharibu mimba mara mbili.,livestock,sw,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0568,Ng'ombe wa maziwa anahitaji maji kiasi gani kwa siku?,livestock,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0569,Bata mzinga wana vichwa vilivyovimba na wanapiga chafya.,livestock,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0570,Nitahasi fahali mchanga kwa usalama vipi?,livestock,sw,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0571,Ng'ombe amebakiza kondo la nyuma baada ya kuzaa.,livestock,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0574,Nitaweka maji ya bwawa la samaki safi vipi?,livestock,sw,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0575,Sungura wana vidonda masikioni.,livestock,sw,True,ai_assisted_draft_reviewed_by_student,4,train
+FQ0576,Bata wa nyama wanafugwa vipi?,livestock,sw,False,ai_assisted_draft_reviewed_by_student,5,train
+FQ0577,"Msee, broilers zangu zinakufa week ya kwanza.",livestock,sheng,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0579,"Hii goat yangu imeabort tena, shida ni nini?",livestock,sheng,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0580,Ma-turkey zangu zinasneeze na head zimevimba.,livestock,sheng,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0582,Broiler feed ya first two weeks ni gani?,livestock,mix,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0583,Heifer inafaa kuservice ikiwa na miaka ngapi?,livestock,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0584,"Fish pond water inakaa green, tilapia zitakufa?",livestock,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0585,"Placenta haijatoka after calving, niite vet?",livestock,mix,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0586,"Donkey yangu ni lame, treatment ni gani?",livestock,mix,False,ai_assisted_draft_reviewed_by_student,7,train
+FQ0587,Duck farming ina faida kuliko kienyeji?,livestock,mix,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0588,Dairy cow inakunywa maji litres ngapi kwa siku?,livestock,mix,False,ai_assisted_draft_reviewed_by_student,8,train
+FQ0589,Rabbits zangu zina mange kwa ears.,livestock,mix,False,ai_assisted_draft_reviewed_by_student,6,train
+FQ0590,Castration ya bull calf inafanywa aje?,livestock,mix,True,ai_assisted_draft_reviewed_by_student,6,train
+FQ0591,How do I make a feeding ration for pigs using local materials?,livestock,en,False,ai_assisted_draft_reviewed_by_student,12,train
+FQ0592,My dairy goat produces milk with a bad smell.,livestock,en,False,ai_assisted_draft_reviewed_by_student,9,train
+FQ0593,Mbuzi wa maziwa anatoa maziwa yenye harufu mbaya.,livestock,sw,True,ai_assisted_draft_reviewed_by_student,8,train
+FQ0594,Chakula cha nguruwe kinatengenezwa vipi kwa vitu vya nyumbani?,livestock,sw,True,ai_assisted_draft_reviewed_by_student,9,train
+FQ0599,Hii ng'ombe haikuli na inatoa mate mingi.,livestock,sheng,True,ai_assisted_draft_reviewed_by_student,7,train
+FQ0600,Sheep in my flock have swollen jaws. What disease is that?,livestock,en,False,ai_assisted_draft_reviewed_by_student,11,train

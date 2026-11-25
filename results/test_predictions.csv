@@ -1,0 +1,91 @@
+id,input,language,has_local_term,true,tfidf_lr,base_mbert,base_zeroshot,finetuned_mbert
+FQ0006,What can I use to kill cutworms that are cutting my cabbage seedlings at night?,en,True,pests,pests,pests,pests,pests
+FQ0021,"Nzige wamevamia shamba la mtama, serikali inasaidiaje?",sw,True,pests,pests,pests,weather_climate,pests
+FQ0024,"Konokono wanakula miche ya sukuma usiku, dawa ni gani?",sw,True,pests,pests,pests,weather_climate,pests
+FQ0027,"Mbu wa viazi wameingia shamba, majani yanakauka kwa ncha.",sw,True,pests,pests,crop_disease,weather_climate,pests
+FQ0028,"Msee, viwavi jeshi wameharibu shamba yangu yote ya mahindi, nitumie dawa gani?",sheng,True,pests,pests,pests,weather_climate,pests
+FQ0030,"Hawa ma-rat wanakula mahindi kwa store, nifanye aje?",sheng,True,pests,pests,pests,weather_climate,pests
+FQ0035,"Whiteflies ziko kwa tomatoes zangu, dawa gani inafanya kazi haraka?",mix,False,pests,pests,crop_disease,weather_climate,pests
+FQ0037,"Tuta absoluta imemaliza nyanya zangu, which chemical is best?",mix,True,pests,pests,soil_fertilizer,soil_fertilizer,soil_fertilizer
+FQ0038,"Nataka kutumia neem kuua pests kwa shamba, inafanya kazi?",mix,True,pests,pests,pests,weather_climate,pests
+FQ0044,Fruit flies are spoiling my mangoes in Makueni before they ripen.,en,False,pests,pests,pests,pests,pests
+FQ0048,Leafminers are making white lines on my tomato leaves.,en,False,pests,crop_disease,crop_disease,crop_disease,crop_disease
+FQ0049,"Mealybugs zimejaa kwa cassava yangu, ni nini dawa?",mix,False,pests,pests,pests,weather_climate,pests
+FQ0061,Grasshoppers are eating my millet in Kitui.,en,False,pests,pests,pests,livestock,pests
+FQ0064,Mende wameingia kwenye maharagwe ghalani.,sw,True,pests,pests,pests,weather_climate,pests
+FQ0076,Kuna mabuu meupe ndani ya udongo yanakula mizizi ya mahindi.,sw,True,pests,pests,pests,weather_climate,crop_disease
+FQ0103,My potatoes are rotting in the field after the rains. What is the cause?,en,False,crop_disease,crop_disease,weather_climate,livestock,weather_climate
+FQ0115,"Viazi vyangu vinaoza shambani baada ya mvua, nifanye nini?",sw,True,crop_disease,crop_disease,livestock,weather_climate,livestock
+FQ0130,"Bro, viazi zangu zinaoza ndani ya udongo, ni nini inaendelea?",sheng,True,crop_disease,soil_fertilizer,soil_fertilizer,weather_climate,soil_fertilizer
+FQ0138,Banana yangu ina Panama disease? Leaves zinakuwa yellow.,mix,False,crop_disease,crop_disease,crop_disease,crop_disease,crop_disease
+FQ0152,"Sweet potato vines have yellow, distorted leaves. Is it a virus?",en,False,crop_disease,crop_disease,crop_disease,crop_disease,crop_disease
+FQ0153,My mango fruits get black spots after flowering.,en,False,crop_disease,crop_disease,crop_disease,pests,crop_disease
+FQ0158,Wheat leaves have yellow stripes of powder. Is it stripe rust?,en,False,crop_disease,crop_disease,crop_disease,crop_disease,crop_disease
+FQ0159,Pyrethrum flowers are drying before they open.,en,False,crop_disease,market_prices,crop_disease,pests,crop_disease
+FQ0160,Citrus leaves have yellow blotches and the fruits are green on one side.,en,False,crop_disease,crop_disease,crop_disease,pests,crop_disease
+FQ0164,Miwa yangu ina majani yenye mistari meupe.,sw,False,crop_disease,crop_disease,soil_fertilizer,weather_climate,crop_disease
+FQ0175,Majani ya mchungwa yana mabaka ya manjano.,sw,False,crop_disease,crop_disease,crop_disease,weather_climate,crop_disease
+FQ0185,"Aflatoxin kwa maize, nitajuaje kama iko?",mix,True,crop_disease,weather_climate,pests,weather_climate,soil_fertilizer
+FQ0188,Leaf spot kwa groundnuts inatibiwa aje?,mix,True,crop_disease,crop_disease,soil_fertilizer,weather_climate,crop_disease
+FQ0192,Brown streak disease has made my cassava roots rot inside.,en,True,crop_disease,crop_disease,crop_disease,crop_disease,crop_disease
+FQ0199,Hii bacterial wilt imeua nusu ya nyanya zangu.,sheng,True,crop_disease,crop_disease,crop_disease,weather_climate,crop_disease
+FQ0201,"Which fertilizer should I use when planting maize, DAP or NPK?",en,True,soil_fertilizer,soil_fertilizer,soil_fertilizer,soil_fertilizer,soil_fertilizer
+FQ0205,How do I make good compost from kitchen waste and cow dung?,en,False,soil_fertilizer,soil_fertilizer,soil_fertilizer,livestock,soil_fertilizer
+FQ0208,How much urea should I apply per acre of wheat?,en,False,soil_fertilizer,soil_fertilizer,soil_fertilizer,market_prices,soil_fertilizer
+FQ0209,What is the right fertilizer for tea during the rainy season?,en,False,soil_fertilizer,weather_climate,weather_climate,soil_fertilizer,weather_climate
+FQ0213,Nitumie mbolea gani wakati wa kupanda mahindi?,sw,True,soil_fertilizer,soil_fertilizer,soil_fertilizer,weather_climate,soil_fertilizer
+FQ0216,Napima udongo wapi hapa Kakamega?,sw,True,soil_fertilizer,soil_fertilizer,market_prices,weather_climate,soil_fertilizer
+FQ0217,Jinsi ya kutengeneza mboji kwa kutumia takataka za jikoni.,sw,True,soil_fertilizer,soil_fertilizer,pests,weather_climate,soil_fertilizer
+FQ0234,Subsidized fertilizer ya NCPB inapatikana wapi Trans Nzoia?,mix,True,soil_fertilizer,soil_fertilizer,soil_fertilizer,soil_fertilizer,soil_fertilizer
+FQ0247,Ni nini faida ya kupumzisha shamba msimu mmoja?,sw,True,soil_fertilizer,soil_fertilizer,soil_fertilizer,weather_climate,market_prices
+FQ0248,"How do I read the numbers on an NPK fertilizer bag, like 17:17:17?",en,False,soil_fertilizer,soil_fertilizer,livestock,market_prices,soil_fertilizer
+FQ0255,My soil is waterlogged and black cotton. What crops and fertilizer suit it?,en,False,soil_fertilizer,soil_fertilizer,soil_fertilizer,pests,soil_fertilizer
+FQ0260,How long should I let compost mature before using it?,en,False,soil_fertilizer,soil_fertilizer,soil_fertilizer,soil_fertilizer,soil_fertilizer
+FQ0263,What does yellowing of older maize leaves from the tip mean?,en,False,soil_fertilizer,crop_disease,crop_disease,crop_disease,crop_disease
+FQ0268,"Udongo wa pamba nyeusi unajaa maji, nipande nini?",sw,True,soil_fertilizer,soil_fertilizer,soil_fertilizer,weather_climate,pests
+FQ0276,Nitaweza kupata wapi mbolea ya ruzuku kwa e-voucher?,sw,True,soil_fertilizer,soil_fertilizer,soil_fertilizer,weather_climate,soil_fertilizer
+FQ0302,Is it a good time to plant maize now or should I wait for more rain?,en,False,weather_climate,weather_climate,weather_climate,weather_climate,weather_climate
+FQ0308,My crops are drying because rain has delayed. What can I do?,en,True,weather_climate,weather_climate,weather_climate,livestock,weather_climate
+FQ0310,Is drip irrigation good for a small farm in a dry area?,en,False,weather_climate,weather_climate,weather_climate,market_prices,weather_climate
+FQ0312,Which drought-tolerant maize variety is best for semi-arid areas?,en,False,weather_climate,weather_climate,soil_fertilizer,soil_fertilizer,weather_climate
+FQ0321,Nitavunaje maji ya mvua kwa ajili ya kunyunyizia shamba?,sw,True,weather_climate,weather_climate,pests,weather_climate,weather_climate
+FQ0329,"Floods zimeharibu shamba yangu yote, nifanye aje?",sheng,True,weather_climate,weather_climate,weather_climate,weather_climate,weather_climate
+FQ0335,"Frost inaharibu tea yangu Kericho, nifanye nini?",mix,False,weather_climate,weather_climate,weather_climate,market_prices,weather_climate
+FQ0346,Greenhouse inasaidia kulinda nyanya kutoka kwa baridi na mvua?,mix,True,weather_climate,weather_climate,crop_disease,weather_climate,weather_climate
+FQ0358,When is the best time to plant potatoes based on the rains?,en,False,weather_climate,weather_climate,weather_climate,soil_fertilizer,weather_climate
+FQ0364,Mvua za vuli zitatosha maharagwe huku Embu?,sw,True,weather_climate,weather_climate,weather_climate,weather_climate,weather_climate
+FQ0374,Mvua kubwa imesomba mbegu nilizopanda.,sw,False,weather_climate,weather_climate,weather_climate,weather_climate,weather_climate
+FQ0378,"Bro, mvua imesomba seeds zangu zote.",sheng,True,weather_climate,weather_climate,weather_climate,soil_fertilizer,weather_climate
+FQ0381,Short rains forecast ya Embu iko aje?,mix,True,weather_climate,weather_climate,weather_climate,weather_climate,weather_climate
+FQ0387,"Dam imekauka, nitapata maji ya irrigation wapi?",mix,False,weather_climate,weather_climate,weather_climate,weather_climate,soil_fertilizer
+FQ0394,"Radi imepiga shamba langu, udongo umeathirika?",sw,True,weather_climate,soil_fertilizer,weather_climate,weather_climate,soil_fertilizer
+FQ0403,How much is a kilo of tomatoes at Wakulima market today?,en,True,market_prices,market_prices,market_prices,market_prices,market_prices
+FQ0411,What is the price of one mature goat at Kajiado market?,en,False,market_prices,market_prices,market_prices,market_prices,market_prices
+FQ0420,Natafuta mnunuzi wa tani mbili za maharagwe.,sw,True,market_prices,pests,pests,weather_climate,pests
+FQ0424,Soko la mayai liko wapi hapa Thika?,sw,True,market_prices,market_prices,weather_climate,weather_climate,livestock
+FQ0432,Tomato prices ziko aje Wakulima market leo?,mix,True,market_prices,market_prices,market_prices,market_prices,market_prices
+FQ0455,How do I avoid being cheated on weight when selling potatoes?,en,False,market_prices,market_prices,livestock,market_prices,livestock
+FQ0468,Nitaepukaje kudanganywa uzito nikiuza viazi?,sw,True,market_prices,livestock,pests,market_prices,soil_fertilizer
+FQ0470,Nauza wapi maua ya pareto?,sw,False,market_prices,market_prices,market_prices,weather_climate,soil_fertilizer
+FQ0473,Bei ya miwa kwa tani kiwandani ni ngapi?,sw,False,market_prices,market_prices,market_prices,weather_climate,market_prices
+FQ0475,Stakabadhi za ghala zinanisaidiaje kupata bei bora?,sw,True,market_prices,market_prices,market_prices,weather_climate,market_prices
+FQ0477,"Msee, bei ya ndengu iko aje huku Kitui?",sheng,True,market_prices,market_prices,market_prices,weather_climate,market_prices
+FQ0491,How do I calculate profit per acre for tomatoes?,en,False,market_prices,market_prices,market_prices,market_prices,livestock
+FQ0492,Is there a mobile app that shows prices in different markets?,en,False,market_prices,market_prices,market_prices,market_prices,market_prices
+FQ0496,A buyer took my produce and refused to pay. What can I do?,en,True,market_prices,market_prices,livestock,market_prices,market_prices
+FQ0499,"Kuna buyer anataka tonnes tano za sorghum, bei poa ni ngapi?",sheng,True,market_prices,market_prices,market_prices,market_prices,market_prices
+FQ0503,My chickens are dying suddenly with green droppings. What disease is it?,en,False,livestock,crop_disease,livestock,livestock,livestock
+FQ0505,How do I know when my cow is on heat for artificial insemination?,en,False,livestock,livestock,soil_fertilizer,livestock,livestock
+FQ0512,How do I make silage for my dairy cows?,en,False,livestock,livestock,livestock,market_prices,livestock
+FQ0514,Ni mara ngapi nipe mbuzi dawa ya minyoo?,sw,True,livestock,livestock,weather_climate,weather_climate,livestock
+FQ0523,"Nguruwe wangu hawali na wana homa, nifanye nini?",sw,True,livestock,livestock,livestock,weather_climate,livestock
+FQ0528,"Bro, nataka kuanza poultry, kienyeji ama layers?",sheng,True,livestock,livestock,livestock,market_prices,weather_climate
+FQ0533,"Dairy meal ama napier, which one inaongeza milk?",mix,True,livestock,livestock,crop_disease,market_prices,crop_disease
+FQ0547,"Layers zangu zimeacha kutaga mayai ghafla, kwa nini?",mix,True,livestock,livestock,crop_disease,weather_climate,pests
+FQ0548,"Kuku wanadonoana manyoya, nifanye nini?",sw,True,livestock,soil_fertilizer,soil_fertilizer,weather_climate,livestock
+FQ0565,"Punda wangu anachechemea, nimtibu vipi?",sw,False,livestock,livestock,livestock,weather_climate,livestock
+FQ0573,Mtamba apandishwe akiwa na umri gani?,sw,False,livestock,livestock,livestock,weather_climate,livestock
+FQ0578,"Bro, ngamia yangu ina swelling kwa shingo.",sheng,True,livestock,livestock,crop_disease,weather_climate,livestock
+FQ0581,"Lumpy skin disease imeshika cows zangu, nifanye nini?",mix,False,livestock,livestock,crop_disease,crop_disease,crop_disease
+FQ0595,Brooding ya vifaranga inafanywa aje bila stima?,mix,True,livestock,livestock,weather_climate,weather_climate,soil_fertilizer
+FQ0597,Vifaranga wakae chini ya joto kwa muda gani?,sw,False,livestock,soil_fertilizer,weather_climate,weather_climate,pests

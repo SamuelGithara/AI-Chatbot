@@ -1,0 +1,16 @@
+=== Base mBERT (zero-shot) vs Fine-tuned mBERT ===
+Contingency table (rows: base correct/wrong, cols: fine-tuned correct/wrong)
+[[24  6]
+ [41 19]]
+b = base right, fine-tuned wrong = 6
+c = base wrong, fine-tuned right = 41
+Exact McNemar statistic = 6.0, p-value = 1.772e-07
+
+=== Base mBERT (frozen + LR head) vs Fine-tuned mBERT ===
+Contingency table (rows: base correct/wrong, cols: fine-tuned correct/wrong)
+[[50  8]
+ [15 17]]
+b = base right, fine-tuned wrong = 8
+c = base wrong, fine-tuned right = 15
+Exact McNemar statistic = 8.0, p-value = 0.21
+
