@@ -8,7 +8,6 @@ Type a farmer question in English, Swahili, Sheng or a mix, and the app shows:
 Run locally:   streamlit run streamlit_app.py
 Deploy:        see DEPLOY.md (GitHub + Streamlit Community Cloud)
 """
-import io
 import os
 import zipfile
 from pathlib import Path
@@ -46,35 +45,59 @@ EXAMPLES = [
 torch.set_num_threads(max(1, (os.cpu_count() or 2)))
 
 
+DEFAULT_REPO = "SamuelGithara/AI-Chatbot"   # change if you rename the repository
+
+
 def _secret(name: str, default: str = "") -> str:
+    """Read a secret from Streamlit secrets (top level or any [section]) or env vars."""
     try:
-        return st.secrets.get(name, os.environ.get(name, default))
+        if name in st.secrets:
+            return str(st.secrets[name]).strip()
+        for v in st.secrets.values():      # tolerate keys placed under a [section]
+            if hasattr(v, "get") and v.get(name):
+                return str(v[name]).strip()
     except Exception:  # no secrets.toml locally
-        return os.environ.get(name, default)
+        pass
+    return os.environ.get(name, default).strip()
+
+
+def _download(url: str, dest: Path, headers: dict) -> None:
+    """Stream a large file to disk (keeps memory low on Streamlit Cloud)."""
+    with requests.get(url, headers=headers, stream=True, timeout=600) as r:
+        r.raise_for_status()
+        with open(dest, "wb") as f:
+            for chunk in r.iter_content(chunk_size=1 << 20):
+                f.write(chunk)
 
 
 def ensure_model() -> Path:
     """Use the local model folder if present, otherwise download it from the GitHub release."""
     if (MODEL_DIR / "model.safetensors").exists():
         return MODEL_DIR
-    repo = _secret("GITHUB_REPO")
-    if not repo:
-        st.error("Fine-tuned model not found. Set GITHUB_REPO in the app secrets (see DEPLOY.md).")
-        st.stop()
-    headers = {"Accept": "application/vnd.github+json"}
+    repo = _secret("GITHUB_REPO") or DEFAULT_REPO
+    repo = repo.replace("https://github.com/", "").strip("/")
     token = _secret("GITHUB_TOKEN")
-    if token:  # only needed if the repository is private
-        headers["Authorization"] = f"Bearer {token}"
-    rel = requests.get(f"https://api.github.com/repos/{repo}/releases/tags/{MODEL_RELEASE_TAG}",
-                       headers=headers, timeout=30)
-    rel.raise_for_status()
-    asset = next(a for a in rel.json()["assets"] if a["name"] == MODEL_ASSET_NAME)
+    MODEL_DIR.mkdir(parents=True, exist_ok=True)
+    zpath = MODEL_DIR.parent / MODEL_ASSET_NAME
     with st.spinner("Downloading fine-tuned model (about 650 MB, first start only)..."):
-        r = requests.get(asset["url"], headers={**headers, "Accept": "application/octet-stream"},
-                         timeout=600)
-        r.raise_for_status()
-        MODEL_DIR.mkdir(parents=True, exist_ok=True)
-        zipfile.ZipFile(io.BytesIO(r.content)).extractall(MODEL_DIR)
+        try:
+            if token:   # private repository: go through the GitHub API
+                h = {"Accept": "application/vnd.github+json", "Authorization": f"Bearer {token}"}
+                rel = requests.get(f"https://api.github.com/repos/{repo}/releases/tags/{MODEL_RELEASE_TAG}",
+                                   headers=h, timeout=30)
+                rel.raise_for_status()
+                asset = next(a for a in rel.json()["assets"] if a["name"] == MODEL_ASSET_NAME)
+                _download(asset["url"], zpath, {**h, "Accept": "application/octet-stream"})
+            else:       # public repository: direct release link
+                _download(f"https://github.com/{repo}/releases/download/{MODEL_RELEASE_TAG}/{MODEL_ASSET_NAME}",
+                          zpath, {})
+        except Exception as e:
+            st.error(f"Could not download the model from GitHub repo '{repo}' "
+                     f"(release '{MODEL_RELEASE_TAG}'). Check GITHUB_REPO / GITHUB_TOKEN. Details: {e}")
+            st.stop()
+        with zipfile.ZipFile(zpath) as z:
+            z.extractall(MODEL_DIR)
+        zpath.unlink(missing_ok=True)
     return MODEL_DIR
 
 

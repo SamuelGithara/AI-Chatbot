@@ -20,7 +20,7 @@ If `models/mbert-farmer-finetuned/` already exists, the app uses it and skips th
 4. Open **Advanced settings** and choose Python 3.12.
 5. Paste these secrets:
    ```toml
-   GITHUB_REPO = "SamuelGithara/kenyan-farmer-query-classifier"
+   GITHUB_REPO = "SamuelGithara/AI-Chatbot"
    # Only needed while the repository is PRIVATE:
    GITHUB_TOKEN = "github_pat_..."
    ```
